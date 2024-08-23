@@ -1,0 +1,22 @@
+{
+  "canisters": {
+    "insaneclownprotocol_com_frontend": {
+      "frontend": {
+        "entrypoint": "src/insaneclownprotocol_com_frontend/src/index.html"
+      },
+      "source": [
+        "src/insaneclownprotocol_com_frontend/assets",
+        "dist/insaneclownprotocol_com_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

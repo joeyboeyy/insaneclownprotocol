@@ -1,0 +1,355 @@
+@media (max-width: 575px) {
+  .marquees-wrapper {
+    display: none;
+  }
+  .navbar-brand {
+    img {
+      height: 7vmax;
+    }
+    h2{       
+      font-size: 3.5vmax;
+    }
+  }
+  .text--3d, .subtext--3d {
+    font-size: 7vmax;
+  }
+  .social {
+      gap: 8px;
+  }
+  .banner__content h1 {
+      font-size: 30px;
+  }
+  .post-item-2 .post-inner .post-thumb-container .thumb-nav {
+    display: none;
+  }
+  .authors {
+    justify-content: center;
+  }
+  .comments .comment-list {
+    margin: 0;
+  }
+  .comments .comment-list .comment .com-content {
+    width: 100%;
+  }
+  .comments .comment-list .comment .com-content .com-title .reply {
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .about-area .about-media img, 
+  .tokenomics-area .tokenomics-media img {
+      max-width: 300px !important;
+  }
+  .coming-soon__content {
+      padding-inline: 15px;
+  }
+}
+@media (min-width: 576px) {
+  .accordion__button .plus-icon {
+    display: initial;
+  }
+  .authors .author-content {
+    width: calc(100% - 170px);
+    margin-top: 0;
+    text-align: left;
+  }
+  .comments .comment-list .comment .com-thumb {
+    margin-bottom: 0;
+  }
+  .comments .comment-list .comment .comment-list {
+    padding-left: 60px;
+    padding-right: 30px;
+  }
+  .comment-respond .add-comment .comment-form input[type=text] {
+    width: calc(100% / 2 - 15px);
+  }
+  .tags-area {
+    padding: 25px 0 0;
+  }
+}
+@media screen and (max-width: 767px){
+  .marquees-wrapper {
+    display: none;
+  }
+  .navbar-brand {
+    img{
+      height: 7vmax;
+    }
+    h2{ 
+      font-size: 3.5vmax;
+    }
+  }
+  .text--3d, .subtext--3d {
+    font-size: 7vmax;
+  }
+  .d-flex {
+      flex-wrap: wrap;
+  }
+  .header.header--fixed {
+      z-index: 9;
+  }
+  .banner {
+      padding-top: 150px !important;
+  }
+  .buy-section .how-buy-card {
+      max-width: 100%;
+      margin-bottom: 50px;
+  }
+  .how-buy-card .how-buy-media {
+      width: auto;
+      height: auto;
+      margin-bottom: 20px;
+      text-align: left;
+  }
+  .how-buy-card .how-buy-info {
+      width: 100%;
+      margin: 0px;
+  }
+  .buy-section .how-buy-card::before {
+    content: none;
+  }
+  .tokenomics-iframe iframe {
+      width: 100%;
+      max-width: 400px;
+  }
+  .about-area .about-card p,
+  .banner__content p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .default-btn {
+    padding: 0 2.25rem;
+    line-height: 56px;
+  }
+  .coming-soon__content {
+    padding-block: 80px;
+  }
+  .error__content {
+    padding-block: 80px;
+  }
+  .collection__thumb-slider-1 {
+    -webkit-transform: translateX(50px);
+    -moz-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px);
+    transform: translateX(50px);
+  }
+  .comments .comment-list .comment .com-thumb {
+    height: 80px;
+    width: 80px;
+  }
+}
+@media (min-width: 992px) {
+  .padding-top {
+    padding-top: 100px;
+  }
+  .padding-bottom {
+    padding-bottom: 100px;
+  }
+  .header--fixed {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+  .section-header__content h2 {
+    max-inline-size: 767px;
+    margin-inline: auto;
+    text-transform: uppercase;
+  }
+  .section-header__content p {
+    max-inline-size: 41ch;
+    margin: auto;
+  }
+  .section-header {
+    margin-bottom: 60px;
+  }
+  .page-header {
+    padding-block: 100px;
+  }
+  .bg-attach--fixed {
+    background-attachment: fixed;
+  }
+  .countdown {
+    gap: 40px;
+  }
+  .coming-soon {
+    height: 100vh;
+  }
+  .coming-soon__inner {
+    flex-direction: row-reverse;
+    height: 100%;
+  }
+  .coming-soon__content>p {
+    max-inline-size: 80%;
+    margin-inline: auto;
+  }
+  .coming-soon__content .countdown {
+    max-inline-size: 80%;
+    margin-inline: auto;
+    margin-bottom: 40px;
+  }
+  .coming-soon__content .input-group {
+    max-inline-size: 70%;
+    margin-inline: auto;
+  }
+  .error {
+    height: 100vh;
+  }
+  .error__inner {
+    flex-direction: row-reverse;
+    height: 100%;
+  }
+  .community__content p {
+    margin-bottom: 45px;
+  }
+  .faq__thumb {
+    position: absolute;
+    bottom: 0;
+  }
+  .mint__thumb {
+    position: absolute;
+    bottom: 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .lg-none {
+      display: none;
+  }
+  .tokenomics-footer .iframe-media {
+      display: block !important;
+  }
+  .tokenomics-footer .iframe-media img {
+      max-width: 400px;
+  }
+  .buy-section .how-buy-card::before {
+      top: 90%;
+      left: 22%;
+  }
+  .buy-section .how-buy-card.right-card::before {
+      transform: rotate(35deg);
+      left: 0%;
+      top: 88%;
+  }
+}
+@media (min-width: 1200px) {
+  .header .navbar-collapse {
+    margin-top: 0;
+  }
+  .nav-link {
+    text-align: left;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .social-btns {
+    margin-left: 25px;
+    flex-direction: row;
+    margin-top: 0;
+  }
+  .countdown {
+      gap: 50px;
+  }
+  .tags-area {
+    justify-content: space-between;
+  }
+  .tags {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 1199px) {
+  br {
+    display: none;
+  }
+  body {
+      text-align: center;
+  }
+  .header .navbar-collapse {
+      background-color: #000;
+      margin-top: 6px;
+  }
+  .header .social-btns {
+      display: none;
+  }
+  .header .navbar-collapse .navbar-nav {
+      padding: 8px 0px;
+  }
+  .navbar-nav .nav-link {
+      text-align: left;
+      padding: 8px 15px;
+  }
+  .about-area .about-card.mb-5 {
+      margin-bottom: 40px !important;
+  }
+  .about-area .about-media {
+      text-align: center;
+      margin: 30px 0px;
+  }
+  .tokenomics-area .tokenomics-media {
+      margin-top: 30px;
+  }
+  .tokenomics-footer .iframe-media {
+      display: none;
+  }
+  .tokenomics-iframe iframe {
+    margin-top: 0px;
+  }
+  .roadmap-area .roadmap-card {
+    text-align: left;
+  }
+  .buy-section .how-buy-card {
+      justify-content: center;
+  }
+  .about-area .about-media img,
+  .tokenomics-area .tokenomics-media img {
+      max-width: 350px;
+  }
+}
+@media (min-width: 1400px) {
+  h1 {
+    font-size: 6.25rem;
+  }
+  h2 {
+    font-size: 4.5rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  h4 {
+    font-size: 1.875rem;
+  }
+  .page-header {
+    padding-block: 120px;
+  }
+  .banner__content p {
+    font-size: 22px;
+    max-width: 680px;
+  }
+  .coming-soon__content>p {
+    font-size: 1.875rem;
+  }
+  .accordion__button {
+    font-size: 1.5rem;
+  }
+  .post-item-2 .post-inner .post-content h2 {
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px){  
+  .navbar-nav .nav-link {
+      font-size: 14px;
+  }
+}
+@media (min-width: 1600px) {
+  .mint .monkey-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 3%;
+    -webkit-animation: left-right 3s cubic-bezier(0.65, 0.05, 0.36, 1) infinite alternate;
+    -moz-animation: left-right 3s cubic-bezier(0.65, 0.05, 0.36, 1) infinite alternate;
+    -ms-animation: left-right 3s cubic-bezier(0.65, 0.05, 0.36, 1) infinite alternate;
+    -o-animation: left-right 3s cubic-bezier(0.65, 0.05, 0.36, 1) infinite alternate;
+    animation: left-right 3s cubic-bezier(0.65, 0.05, 0.36, 1) infinite alternate;
+  }
+}

@@ -11,31 +11,52 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   a:hover {
-    cursor: url(../images/clown-e.png?canisterId=bd3sg-teaaa-aaaaa-qaaba-cai) 18 16, pointer;
+    cursor: url(../images/clown-e.png?canisterId=bkyz2-fmaaa-aaaaa-qaaaq-cai) 18 16, pointer;
   }
 }
 main {
   display: block;
 }
+.tokenomics-media {
+  height: 416px;
+}
+.chart-container {
+  height: 472px;
+}
+.secondary-btn {
+  padding: 0.8rem;
+} 
+#dexscreener-embed {
+  position: relative;
+  width: 100%;
+  padding-bottom: 125%;
+}
+#dexscreener-embed iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: 0;
+}
 .header--fixed {
   background-color: #000;
 }
-.navbar-brand {
-  img {
-    height: 3vmax;
-  }
-  h2{ 
-    padding-left: 10px;
-    display: inline; 
-    vertical-align: middle; 
-    font-size: 2vmax;
-  }
+.navbar-brand img {
+  height: 3vmax;
+}
+.navbar-brand h2 {
+  display: inline;
+  vertical-align: middle;
+  line-height: 100%; 
+  padding-left: 10px;   
+  font-size: 2vmax;
 }
 .fa-check-circle {
-  background-image: url(../images/tick.svg?canisterId=bd3sg-teaaa-aaaaa-qaaba-cai);
+  background-image: url(../images/tick.svg?canisterId=bkyz2-fmaaa-aaaaa-qaaaq-cai);
 }
 .fa-circle {
-  background-image: url(../images/tick-e.svg?canisterId=bd3sg-teaaa-aaaaa-qaaba-cai);
+  background-image: url(../images/tick-e.svg?canisterId=bkyz2-fmaaa-aaaaa-qaaaq-cai);
 }
 .fas {
   width: 100%;
@@ -1133,7 +1154,7 @@ ol {
     width: 100%;
     background-image: linear-gradient(
       to bottom, transparent, #000070
-    ), url(../images/banner/bannerbg.png?canisterId=bd3sg-teaaa-aaaaa-qaaba-cai);
+    ), url(../images/banner/bannerbg.png?canisterId=bkyz2-fmaaa-aaaaa-qaaaq-cai);
     background-color: #000070;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1339,7 +1360,6 @@ ol {
   text-decoration: none;
   font-family: "Rowdies", cursive;
   color: #fff;
-  padding: 0 1.7rem;
   line-height: 50px;
   transform-origin: right;
   transition: all 0.3s ease;
@@ -1526,7 +1546,7 @@ ol {
     content: "";
     height: 100%;
     width: 100%;
-    background-image: url(../images/banner/bannerbg.png?canisterId=bd3sg-teaaa-aaaaa-qaaba-cai);
+    background-image: url(../images/banner/bannerbg.png?canisterId=bkyz2-fmaaa-aaaaa-qaaaq-cai);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -60px;
@@ -2394,10 +2414,6 @@ tokenomics-bottom {
 
 .tokenomics-margin {
   margin-top: 20px;
-}
-
-.tokenomics-iframe iframe {
-    margin: 40px auto 0px;
 }
 
 .roadmap-area {

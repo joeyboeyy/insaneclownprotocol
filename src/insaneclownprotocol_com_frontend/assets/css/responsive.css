@@ -1,20 +1,29 @@
+@media(min-width:1400px) {
+  #dexscreener-embed {
+    padding-bottom: 65%;
+  }
+}
 @media (max-width: 575px) {
   .marquees-wrapper {
     display: none;
   }
-  .navbar-brand {
-    img {
-      height: 7vmax;
-    }
-    h2{       
-      font-size: 3.5vmax;
-    }
+  .navbar-brand img {
+    height: 7vmax;
+  }
+  .navbar-brand h2{    
+    font-size: 3.5vmax;
+    vertical-align: bottom;
+    display: inline-block;
   }
   .text--3d, .subtext--3d {
     font-size: 7vmax;
   }
   .social {
-      gap: 8px;
+      gap: 4px;
+  }
+  .secondary-btn {
+    width: 100%;
+    line-height: normal;
   }
   .banner__content h1 {
       font-size: 30px;
@@ -66,17 +75,17 @@
     padding: 25px 0 0;
   }
 }
-@media screen and (max-width: 767px){
+@media (max-width: 767px){
   .marquees-wrapper {
     display: none;
   }
-  .navbar-brand {
-    img{
-      height: 7vmax;
-    }
-    h2{ 
-      font-size: 3.5vmax;
-    }
+  .navbar-brand img {
+    height: 7vmax;
+  }
+  .navbar-brand h2{    
+    font-size: 3.5vmax;
+    vertical-align: bottom;
+    display: inline-block;
   }
   .text--3d, .subtext--3d {
     font-size: 7vmax;
@@ -106,10 +115,6 @@
   }
   .buy-section .how-buy-card::before {
     content: none;
-  }
-  .tokenomics-iframe iframe {
-      width: 100%;
-      max-width: 400px;
   }
   .about-area .about-card p,
   .banner__content p {
@@ -217,10 +222,10 @@
   .lg-none {
       display: none;
   }
-  .tokenomics-footer .iframe-media {
+  .tokenomics-footer .iframe-media, .tokenomics-media {
       display: block !important;
   }
-  .tokenomics-footer .iframe-media img {
+  .tokenomics-footer .iframe-media img, .tokenomics-media img {
       max-width: 400px;
   }
   .buy-section .how-buy-card::before {
@@ -288,7 +293,7 @@
   .tokenomics-area .tokenomics-media {
       margin-top: 30px;
   }
-  .tokenomics-footer .iframe-media {
+  .tokenomics-footer .iframe-media, .tokenomics-media {
       display: none;
   }
   .tokenomics-iframe iframe {

@@ -47,7 +47,7 @@ const MAX_SUPPLY = 1000000000;
                 backgroundColor: [
                     '#088a28',                                                                                                                
                     '#54d9fe',
-                    '#5553f8',
+                    '#c563ee',
                     '#f84742',
                 ],
                 borderColor: 'rgba(0, 0, 0, 1)',

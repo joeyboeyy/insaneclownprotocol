@@ -2,6 +2,7 @@ import "../assets/css/bootstrap.min.css";
 import "../assets/css/aos.css";
 import "../assets/css/style.css";
 import "../assets/css/responsive.css";
+import "../assets/css/memes.css";
 
 const fmt = new Intl.NumberFormat("de-DE");
 const MAX_SUPPLY = 1000000000;

@@ -11,11 +11,14 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   a:hover {
-    cursor: url(../images/clown-e.png?canisterId=bkyz2-fmaaa-aaaaa-qaaaq-cai) 18 16, pointer;
+    cursor: url(../images/clown-e.png?canisterId=bd3sg-teaaa-aaaaa-qaaba-cai) 18 16, pointer;
   }
 }
 main {
   display: block;
+}
+.iframe-media {
+  padding-top: 6px;
 }
 .tokenomics-media {
   height: 416px;
@@ -53,10 +56,10 @@ main {
   font-size: 2vmax;
 }
 .fa-check-circle {
-  background-image: url(../images/tick.svg?canisterId=bkyz2-fmaaa-aaaaa-qaaaq-cai);
+  background-image: url(../images/tick.svg?canisterId=bd3sg-teaaa-aaaaa-qaaba-cai);
 }
 .fa-circle {
-  background-image: url(../images/tick-e.svg?canisterId=bkyz2-fmaaa-aaaaa-qaaaq-cai);
+  background-image: url(../images/tick-e.svg?canisterId=bd3sg-teaaa-aaaaa-qaaba-cai);
 }
 .fas {
   width: 100%;
@@ -109,7 +112,7 @@ sub {
 sup {
   top: -0.5em;
 }
-img {
+img, video{
   border-style: none;
 }
 button,
@@ -242,7 +245,7 @@ h5 {
 h6 {
   font-size: 1.125rem;
 }
-img {
+img, video {
   max-width: 100%;
   height: auto;
 }
@@ -1154,7 +1157,7 @@ ol {
     width: 100%;
     background-image: linear-gradient(
       to bottom, transparent, #000070
-    ), url(../images/banner/bannerbg.png?canisterId=bkyz2-fmaaa-aaaaa-qaaaq-cai);
+    ), url(../images/banner/bannerbg.png?canisterId=bd3sg-teaaa-aaaaa-qaaba-cai);
     background-color: #000070;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1546,7 +1549,7 @@ ol {
     content: "";
     height: 100%;
     width: 100%;
-    background-image: url(../images/banner/bannerbg.png?canisterId=bkyz2-fmaaa-aaaaa-qaaaq-cai);
+    background-image: url(../images/banner/bannerbg.png?canisterId=bd3sg-teaaa-aaaaa-qaaba-cai);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -60px;
